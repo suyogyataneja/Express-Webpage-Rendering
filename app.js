@@ -14,7 +14,10 @@ let ejs = require('ejs');
 //Setting APPLICATION WIDE variable
 
 app.set('appName', 'APPLICATION')
-//Setting PORT Number in EXPRESS app
+//Setting PORT Number in EXPRESS app 
+//listen to port 
+
+
 app.set('port', 8080);
 
 app.listen(app.get('port'));
@@ -47,7 +50,6 @@ app.post('/monash', (req,res)=>{
     console.log(req.body)
 })
 
-//listen to port 
 
 
 //app.listen(8080);
